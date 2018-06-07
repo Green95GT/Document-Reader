@@ -39,6 +39,7 @@ def print_words(fopen):
 	
 	decision = input('Would you like the program to read the document (y/n)? ')
 	if decision == 'y':
+		"""Concatenates word list into a scentence"""
 		result1 = ''
 		for elements in word:
 			result1 += str(elements)
